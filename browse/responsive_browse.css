@@ -1,0 +1,256 @@
+/* mobile */
+@media (max-width: 46.1875em){
+    .app{
+        overflow: hidden;
+        width: auto !important;
+    }
+    .search-and-dbn{
+        display: block !important;
+    }
+    .category,.mobileSearch{
+        margin: 10px 30px;
+    }
+    .listGame_show{
+        margin: 0 15px;
+    }
+    .listGame_showOption{
+        margin: 10px 30px;
+    }
+    .listGame_show--card-img img{
+        height: 415px;
+        border-radius: 5px;
+    }
+    .listGame_show--card{
+        margin-bottom: 15px;
+    }
+    .mobileSearch{
+       width: 100%;
+    }
+    .dbn-menu-mobile{
+        text-align: center;
+    }
+    .dropdown-togg {
+        font-size: 15px;
+    }
+    .dropdown-togg:hover{
+        cursor: pointer;
+    }
+    .dropdown-togg i{
+        font-size: 12px;
+        padding-left: 6px;
+    }
+    .dropdowninmob a{
+        line-height: 20px;
+        color:rgb(245, 245, 245);
+        font-size: 14px;
+        font-weight: normal;
+        letter-spacing:0.2px;
+    }
+    .dropdowninmob{
+        display: none;
+        width: 100%;
+        margin-top: 50px;
+    }
+    .dropdowninmob li{
+        border-bottom: 1px solid #2a2a2a;   
+    }
+    .dropdowninmob li:last-of-type{
+        border-bottom: none;
+        margin-bottom: 50px;
+    }
+    .overlay{
+        position: absolute;
+        display: none;
+        width: 100vw;
+        height: 100vh;
+        top: 85%;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.7);
+        z-index: 2;
+    }
+    .overlayy{
+        position: absolute;
+        display: none;
+        width: 100vw;
+        height: 100vh;
+        top: 85%;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.7);
+        z-index: 2;
+    }
+    .searchDetail{
+        position: absolute;
+        top: -38px;
+        left: 26px;
+        display: flex;
+    }
+    .searchDetail input{
+        background-color: #121212;
+        border: none;
+        margin-left: 15px;
+        color: #fff;
+        width: 500px;
+    }
+    .searchDetail i{
+        font-size: 15px;
+    }
+    .btn-search, .btn-close{
+        cursor:pointer;
+    }
+    .btn-search{
+        padding-left: 24px;
+    }
+    .btn-close{
+        margin-left: 3px;
+    }
+    .listGame_showOption{
+        display: flex;
+        justify-content:space-between;
+    }
+    ul.dropdown{
+        margin-top: 27px;
+    }
+    .hide-on-mobile{
+        display: none !important;
+    }
+    
+}
+@media (min-width: 64em){
+    .hide-on-pc{
+        display: none;
+    }
+}
+/* Tablet */
+@media (min-width: 46.25em) and (max-width: 63.9375em){
+    .hide-on-tablet{
+        display: none !important;
+    }
+    .app{
+        overflow: hidden;
+        width: auto !important;
+    }
+    .category_content--item-img img{
+        padding: 0;
+        width: 215px;
+        height: 152px;
+    }
+    .search-and-dbn{
+        display: block !important;
+    }
+    .category_content--item-text{
+        font-size: 19px ;
+        margin-top: 5px;
+    }
+    .category_content--item{
+        padding: 0;
+    }
+    .category,.mobileSearch{
+        margin: 10px 30px;
+    }
+    .listGame_show{
+        margin: 0 15px;
+    }
+    .listGame_showOption{
+        margin: 10px 30px;
+    }
+    .listGame_show--card-img img{
+        border-radius: 5px;
+    }
+    .listGame_show--card{
+        margin-bottom: 15px;
+    }
+    .mobileSearch{
+       width: 100%;
+    }
+    .dbn-menu-mobile{
+        text-align: center;
+    }
+    .dropdown-togg {
+        font-size: 15px;
+    }
+    .dropdown-togg:hover{
+        cursor: pointer;
+    }
+    .dropdown-togg i{
+        font-size: 12px;
+        padding-left: 6px;
+    }
+    .dropdowninmob a{
+        line-height: 20px;
+        color:rgb(245, 245, 245);
+        font-size: 14px;
+        font-weight: normal;
+        letter-spacing:0.2px;
+    }
+    .dropdowninmob{
+        display: none;
+        width: 100%;
+        margin-top: 50px;
+    }
+    .dropdowninmob li{
+        border-bottom: 1px solid #2a2a2a;   
+    }
+    .dropdowninmob li:last-of-type{
+        border-bottom: none;
+        margin-bottom: 50px;
+    }
+    .overlay{
+        position: absolute;
+        display: none;
+        width: 100vw;
+        height: 100vh;
+        top: 85%;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.7);
+        z-index: 2;
+    }
+    .overlayy{
+        position: absolute;
+        display: none;
+        width: 100vw;
+        height: 100vh;
+        top: 85%;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.7);
+        z-index: 2;
+    }
+    .searchDetail{
+        position: absolute;
+        top: -41px;
+        left: 26px;
+    }
+    .searchDetail input{
+        background-color: #121212;
+        border: none;
+        margin-left: 15px;
+        color: #fff;
+        width: 862px;
+    }
+    .searchDetail i{
+        font-size: 15px;
+    }
+    .btn-search, .btn-close{
+        cursor:pointer;
+    }
+    .btn-search{
+        padding-left: 24px;
+    }
+    .btn-close{
+        margin-left: 3px;
+    }
+    .listGame_showOption{
+        display: flex;
+        justify-content:space-between;
+    }
+    ul.dropdown{
+        margin-top: 27px;
+    }
+}

@@ -1,0 +1,145 @@
+:root {
+    --main-color: #0d81ec;
+    --dark-color: #121212;
+    --light-color: #322f40;
+    --text-color: #fff;
+    --header-color: #2a2a2a;
+    --border-color: #414141;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.news-container {
+    margin-top: 32px;
+    margin-bottom: 100px;
+}
+
+.news-heading span{
+    text-align: left;
+    font-size: 18px;
+}
+
+.news-heading .game-heading {
+    margin-top: 10px;
+    margin-bottom: 64px;
+}
+
+.game-heading .game-item {
+    cursor: pointer;
+}
+
+.game-heading .game-item img {
+    border-radius: 4px;
+}
+
+.game-heading .game-item span {
+    font-size: 11px;
+    opacity: 0.7;
+    margin-top: 10px;
+}
+
+.game-heading .game-item p {
+    height: 28px    ;
+    font-size: 14px;
+    margin-top: 6px;
+}
+
+.game-heading .game-item a {
+    margin-top: 36px;
+    display:inline-block;
+    height: 20px;
+    font-size: 14px;
+    opacity: 1;
+    text-decoration: none;
+    border-bottom: 1px solid rgb(58, 57, 57);
+}
+
+.game-item:hover img {
+    filter: brightness(1.3);
+    transition: .2s ease-in-out;
+}
+
+.game-item:hover a {
+    border-bottom-color: #fff;
+    transition: .2s ease-in-out;
+}
+
+.news-item {
+    display: flex;
+    border-top: 1px solid var(--border-color);
+    padding-top: 20px;
+    margin-bottom: 30px;
+    cursor: pointer;
+} 
+
+.news-item img {
+    width: 20%;
+    border-radius: 4px;
+    margin-right: 20px;
+}
+
+.news-item .news-game-desc span {
+    font-size: 11px;
+    opacity: 0.7;
+}
+
+.news-item .news-game-desc a {
+    margin-top: 40px;
+    display:inline-block;
+    height: 20px;
+    font-size: 14px;
+    opacity: 1;
+    text-decoration: none;
+    border-bottom: 1px solid rgb(58, 57, 57);
+    
+}
+
+.news-item:hover a {
+    border-bottom-color: #fff;
+    transition: .2s ease-in-out;
+}
+
+.page-counting {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-counting a {
+    margin-right: 20px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.page-counting a:hover, .page-counting i:hover {
+    opacity: 1;
+}
+
+.page-counting i {
+    font-size: 10px;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+@media (min-width: 1px) and (max-width: 739px) {
+    .game-heading {
+        margin-bottom: 24px!important;
+    }
+    
+    .game-heading .game-item {
+        margin-bottom: 48px;
+    }
+
+    .news-item {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .news-item img {
+        width: 100%;
+    }
+}

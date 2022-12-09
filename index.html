@@ -1,0 +1,1490 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game Store</title>
+    <!-- Fav Icon -->
+    <link rel="shortcut icon" href="img/fav.png" type="image/x-icon" />
+    <!-- Themify Icon -->
+    <link rel="stylesheet" href="./icon/themify-icons/themify-icons.css " />
+    <link rel="stylesheet" href="./css/grid.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="icon"
+      href="./img/logopng/epicgames.png"
+      type="image/icon type"
+    />
+  </head>
+
+  <body>
+    <div class="over-lay" id="over-lay"></div>
+    <header>
+      <a href="index.html"
+        ><img src="./img/epic-games.png" alt="" class="logo"
+      /></a>
+      <div class="nav">
+        <div class="site-nav">
+          <a href="#" class="nav-hover">
+            <p>STORE</p>
+          </a>
+          <a href="#" class="nav-hover">
+            <p>FAQ</p>
+          </a>
+          <a href="#" class="nav-hover">
+            <p>HELP</p>
+          </a>
+          <a href="#" class="nav-hover">
+            <p>UNREAL ENGINE</p>
+          </a>
+        </div>
+
+        <div class="right-nav">
+          <div class="icon-world" style="padding-right: 8px">
+            <i class="ti-world"></i>
+            <ul class="languages">
+              <li>
+                <a href="#"><span>العربية</span></a>
+              </li>
+              <li>
+                <a href="#"><span>Vietnamese</span></a>
+              </li>
+              <li>
+                <a href="#"><span>Deutsch</span></a>
+              </li>
+              <li>
+                <a href="#"><span>English</span></a>
+              </li>
+              <li>
+                <a href="#"><span>Italiano</span></a>
+              </li>
+              <li>
+                <a href="#"><span>Espanol</span></a>
+              </li>
+              <li>
+                <a href="#"><span>Turkce</span></a>
+              </li>
+              <li>
+                <a href="#"><span>Japanese</span></a>
+              </li>
+              <li>
+                <a href="#"><span>Portugues</span></a>
+              </li>
+            </ul>
+          </div>
+          <a href="sign-in.html" class="nav-hover">
+            <i class="ti-user"></i>
+            <span>SIGN IN</span>
+          </a>
+          <a href="#" class="download">
+            <p>DOWNLOAD</p>
+          </a>
+        </div>
+      </div>
+      <div class="menu-button" id="menu-button">
+        <i class="ti-menu"></i>
+      </div>
+
+      <div class="search-layout-responsive" id="search-layout-responsive">
+        <div class="search-container">
+          <div class="search-icon">
+            <label for="search-responsive"><i class="ti-search"></i></label>
+          </div>
+          <div class="input-search">
+            <input
+              type="text"
+              placeholder="Search store"
+              id="search-responsive"
+            />
+          </div>
+        </div>
+
+        <div class="close-button" id="search-close-button">
+          <i class="ti-close"></i>
+        </div>
+      </div>
+
+      <div class="tab-select-responsive" id="tab-select-layout">
+        <a href="#" style="opacity: 1">Discover</a>
+        <a href="./browse/browse.html">Browse</a>
+        <a href="./news-tab.html">News</a>
+      </div>
+
+      <div class="menu-layout" id="menu-layout">
+        <div class="top-nav">
+          <a href="#">STORE</a>
+          <a href="#">FAQ</a>
+          <a href="#">HELP</a>
+          <a href="#">UNREAL ENGINE</a>
+        </div>
+
+        <div class="bottom-nav">
+          <div class="sign-in-and-language">
+            <a href="sign-in.html" class="nav-hover">
+              <i class="ti-user"></i>
+              <span>SIGN IN</span>
+            </a>
+            <a class="icon-world">
+              <i class="ti-world"></i>
+            </a>
+          </div>
+
+          <div class="download">
+            <a href="#" class="download">
+              <p>DOWNLOAD</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="grid">
+        <div class="search-and-dbn">
+          <div class="search-layout">
+            <div class="search-icon">
+              <label for="search"><i class="ti-search"></i></label>
+            </div>
+            <div class="input-search">
+              <input type="text" placeholder="Search store" id="search" />
+            </div>
+          </div>
+
+          <div class="dbn-menu">
+            <a href="#" style="opacity: 1">Discover</a>
+            <a href="./browse/browse.html">Browse</a>
+            <a href="news-tab.html">News</a>
+          </div>
+        </div>
+
+        <div class="search-and-dbn-responsive">
+          <div class="search-icon" id="search-icon">
+            <i class="ti-search"></i>
+          </div>
+
+          <div class="tab-select-button" id="tab-select-button">
+            <button>
+              <span>Discover</span>
+              <i class="ti-angle-down"></i>
+            </button>
+          </div>
+          <div></div>
+        </div>
+
+        <div class="slider-container">
+          <div class="slider">
+            <div class="slides">
+              <input
+                type="radio"
+                class="checked-Thumbnail"
+                name="radio-btn"
+                id="radio1"
+              />
+              <input
+                type="radio"
+                class="checked-Thumbnail"
+                name="radio-btn"
+                id="radio2"
+              />
+              <input
+                type="radio"
+                class="checked-Thumbnail"
+                name="radio-btn"
+                id="radio3"
+              />
+              <input
+                type="radio"
+                class="checked-Thumbnail"
+                name="radio-btn"
+                id="radio4"
+              />
+              <input
+                type="radio"
+                class="checked-Thumbnail"
+                name="radio-btn"
+                id="radio5"
+              />
+              <input
+                type="radio"
+                class="checked-Thumbnail"
+                name="radio-btn"
+                id="radio6"
+              />
+
+              <div class="slide first">
+                <img class="bg" src="./img/spider-bg.jpg" alt="" />
+                <div class="slide-content">
+                  <img class="logo" src="./img/spider-logo.png" alt="" />
+                  <p>OUT NOW</p>
+                  <p style="margin: 4px 0 12px">
+                    Marvel's Spider-Man: Miles Morales is a 2020
+                    action-adventure game <br />
+                    developed by Insomniac Games and published by Sony
+                    Interactive Entertainment.
+                  </p>
+                  <p>Starting at 59$</p>
+                  <div class="purchase">
+                    <a href="#" class="buy-btn">BUY NOW</a>
+                    <a href="#" class="addtoWishList">
+                      <i class="ti-plus"></i>
+                      <span style="margin-left: 8px">ADD TO WISHLIST</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="slide">
+                <img class="bg" src="./img/dead-space-bg.jpg" alt="" />
+                <div class="slide-content">
+                  <img class="logo" src="./img/dead-space-logo.png" alt="" />
+                  <p>OUT NOW</p>
+                  <p style="margin: 4px 0 12px">
+                    Marvel's Spider-Man: Miles Morales is a 2020
+                    action-adventure game <br />
+                    developed by Insomniac Games and published by Sony
+                    Interactive Entertainment.
+                  </p>
+                  <p>Starting at 59$</p>
+                  <div class="purchase">
+                    <a href="#" class="buy-btn">BUY NOW</a>
+                    <a href="#" class="addtoWishList">
+                      <i class="ti-plus"></i>
+                      <span style="margin-left: 8px">ADD TO WISHLIST</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="slide">
+                <img class="bg" src="./img/fornite-bg.jpg" alt="" />
+                <div class="slide-content">
+                  <img class="logo" src="./img/fornite-logo.png" alt="" />
+                  <p>OUT NOW</p>
+                  <p style="margin: 4px 0 12px">
+                    Marvel's Spider-Man: Miles Morales is a 2020
+                    action-adventure game <br />
+                    developed by Insomniac Games and published by Sony
+                    Interactive Entertainment.
+                  </p>
+                  <p>Starting at 59$</p>
+                  <div class="purchase">
+                    <a href="#" class="buy-btn">BUY NOW</a>
+                    <a href="#" class="addtoWishList">
+                      <i class="ti-plus"></i>
+                      <span style="margin-left: 8px">ADD TO WISHLIST</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="slide">
+                <img class="bg" src="./img/goat-bg.jpg" alt="" />
+                <div class="slide-content">
+                  <img class="logo" src="./img/goat-logo.png" alt="" />
+                  <p>OUT NOW</p>
+                  <p style="margin: 4px 0 12px">
+                    Marvel's Spider-Man: Miles Morales is a 2020
+                    action-adventure game <br />
+                    developed by Insomniac Games and published by Sony
+                    Interactive Entertainment.
+                  </p>
+                  <p>Starting at 59$</p>
+                  <div class="purchase">
+                    <a href="#" class="buy-btn">BUY NOW</a>
+                    <a href="#" class="addtoWishList">
+                      <i class="ti-plus"></i>
+                      <span style="margin-left: 8px">ADD TO WISHLIST</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="slide">
+                <img class="bg" src="./img/somer-bg.jpg" alt="" />
+                <div class="slide-content">
+                  <img class="logo" src="./img/somer-logo.png" alt="" />
+                  <p>OUT NOW</p>
+                  <p style="margin: 4px 0 12px">
+                    Marvel's Spider-Man: Miles Morales is a 2020
+                    action-adventure game <br />
+                    developed by Insomniac Games and published by Sony
+                    Interactive Entertainment.
+                  </p>
+                  <p>Starting at 59$</p>
+                  <div class="purchase">
+                    <a href="#" class="buy-btn">BUY NOW</a>
+                    <a href="#" class="addtoWishList">
+                      <i class="ti-plus"></i>
+                      <span style="margin-left: 8px">ADD TO WISHLIST</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="slide" style="color: var(--dark-color)">
+                <img class="bg" src="./img/rumber-bg.jpg" alt="" />
+                <div class="slide-content">
+                  <img class="logo" src="./img/rumber-logo.png" alt="" />
+                  <p>OUT NOW</p>
+                  <p style="margin: 4px 0 12px">
+                    Marvel's Spider-Man: Miles Morales is a 2020
+                    action-adventure game <br />
+                    developed by Insomniac Games and published by Sony
+                    Interactive Entertainment.
+                  </p>
+                  <p>Starting at 59$</p>
+                  <div class="purchase">
+                    <a href="#" class="buy-btn">BUY NOW</a>
+                    <a href="#" class="addtoWishList hover-dark">
+                      <i class="ti-plus"></i>
+                      <span style="margin-left: 8px; color: var(--dark-color)"
+                        >ADD TO WISHLIST</span
+                      >
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+                <div class="auto-btn5"></div>
+                <div class="auto-btn6"></div>
+              </div>
+            </div>
+
+            <div class="navigation-manual">
+              <label for="radio1" class="manual-btn"></label>
+              <label for="radio2" class="manual-btn"></label>
+              <label for="radio3" class="manual-btn"></label>
+              <label for="radio4" class="manual-btn"></label>
+              <label for="radio5" class="manual-btn"></label>
+              <label for="radio6" class="manual-btn"></label>
+            </div>
+          </div>
+
+          <div class="menu-slider">
+            <div class="thumbnail">
+              <img src="./img/spider-thumb.jpg" alt="" />
+              <span>Marvel's Spider Man</span>
+            </div>
+
+            <div class="thumbnail">
+              <img src="./img/dead-space-thumb.jpg" alt="" />
+              <span>Dead Space</span>
+            </div>
+
+            <div class="thumbnail">
+              <img src="./img/fornite-thumb.jpg" alt="" />
+              <span>Fortnite</span>
+            </div>
+
+            <div class="thumbnail">
+              <img src="./img/goat-thumb.jpg" alt="" />
+              <span>Goat Simulator 3</span>
+            </div>
+
+            <div class="thumbnail">
+              <img src="./img/somer-thumb.jpg" alt="" />
+              <span>Somerville</span>
+            </div>
+
+            <div class="thumbnail">
+              <img src="./img/rumber-thumb.jpg" alt="" />
+              <span>Rumbleverse</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- List game 1 -->
+
+        <div class="list-game-container">
+          <div class="list-game-header">
+            <div class="list-game-name">
+              <span>Black Friday Spotlight</span>
+              <i class="ti-angle-right listname-angle-right"></i>
+            </div>
+
+            <div class="left-right-btn">
+              <button style="margin-right: 6px" id="left-btn-gamelist">
+                <i class="ti-angle-left"></i>
+              </button>
+              <button>
+                <i class="ti-angle-right" id="right-btn-gamelist"></i>
+              </button>
+            </div>
+          </div>
+
+          <div class="game-list row nowrap" id="game-list">
+            <div class="game-item l-2-4-new m-4-new s-1 col">
+              <img src="./img/trending game/trending1.webp" alt="" />
+              <span class="game-type">BASE GAME</span>
+              <p class="game-name">Cyberpunk 2077</p>
+              <div class="discount-and-price">
+                <p class="discount">-50%</p>
+                <div class="price">
+                  <p class="old-price">99$</p>
+                  <p class="new-price">49$</p>
+                </div>
+              </div>
+              <div class="add-wishlist">
+                <i class="ti-plus"></i>
+              </div>
+
+              <div class="add-wishlist-text">Add To Wishlist</div>
+            </div>
+
+            <div class="game-item l-2-4-new m-4-new s-1 col">
+              <img src="./img/trending game/trending2.jpg" alt="" />
+              <span class="game-type">BASE GAME</span>
+              <p class="game-name">BATTLEFIELD 2042</p>
+              <div class="discount-and-price">
+                <p class="discount">-33%</p>
+                <div class="price">
+                  <p class="old-price">99$</p>
+                  <p class="new-price">67$</p>
+                </div>
+              </div>
+              <div class="add-wishlist">
+                <i class="ti-plus"></i>
+              </div>
+
+              <div class="add-wishlist-text">Add To Wishlist</div>
+            </div>
+
+            <div class="game-item l-2-4-new m-4-new s-1 col">
+              <img src="./img/trending game/trending3.jpg" alt="" />
+              <span class="game-type">BASE GAME</span>
+              <p class="game-name">Assassin's Creed Valhalla</p>
+              <div class="discount-and-price">
+                <p class="discount">-100%</p>
+                <div class="price price-free">
+                  <p class="old-price">99$</p>
+                  <p class="new-price">Free</p>
+                </div>
+              </div>
+              <div class="add-wishlist">
+                <i class="ti-plus"></i>
+              </div>
+
+              <div class="add-wishlist-text">Add To Wishlist</div>
+            </div>
+
+            <div class="game-item l-2-4-new m-4-new s-1 col">
+              <img src="./img/trending game/trending4.jpg" alt="" />
+              <span class="game-type">BASE GAME</span>
+              <p class="game-name">Ghost Of Tsushima</p>
+              <div class="discount-and-price">
+                <p class="discount">-67%</p>
+                <div class="price">
+                  <p class="old-price">99$</p>
+                  <p class="new-price">33$</p>
+                </div>
+              </div>
+              <div class="add-wishlist">
+                <i class="ti-plus"></i>
+              </div>
+
+              <div class="add-wishlist-text">Add To Wishlist</div>
+            </div>
+
+            <div class="game-item l-2-4-new m-4-new s-1 col">
+              <img src="./img/trending game/trending5.png" alt="" />
+              <span class="game-type">BASE GAME</span>
+              <p class="game-name">Grand Theft Auto V</p>
+              <div class="discount-and-price">
+                <p class="discount">-33%</p>
+                <div class="price">
+                  <p class="old-price">67$</p>
+                  <p class="new-price">22$</p>
+                </div>
+              </div>
+              <div class="add-wishlist">
+                <i class="ti-plus"></i>
+              </div>
+
+              <div class="add-wishlist-text">Add To Wishlist</div>
+            </div>
+
+            <div class="game-item l-2-4-new m-4-new s-1 col">
+              <img src="./img/trending game/trending6.jpg" alt="" />
+              <span class="game-type">BASE GAME</span>
+              <p class="game-name">Dying Light 2 Stay Human</p>
+              <div class="discount-and-price">
+                <p class="discount">-100%</p>
+                <div class="price price-free">
+                  <p class="old-price">67$</p>
+                  <p class="new-price">Free</p>
+                </div>
+              </div>
+              <div class="add-wishlist">
+                <i class="ti-plus"></i>
+              </div>
+
+              <div class="add-wishlist-text">Add To Wishlist</div>
+            </div>
+
+            <div class="game-item l-2-4-new m-4-new s-1 col">
+              <img src="./img/trending game/trending7.png" alt="" />
+              <span class="game-type">BASE GAME</span>
+              <p class="game-name">Halo Infinite</p>
+              <div class="discount-and-price">
+                <div class="price">
+                  <p class="new-price">100$</p>
+                </div>
+              </div>
+              <div class="add-wishlist">
+                <i class="ti-plus"></i>
+              </div>
+
+              <div class="add-wishlist-text">Add To Wishlist</div>
+            </div>
+
+            <div class="game-item l-2-4-new m-4-new s-1 col">
+              <img src="./img/trending game/trending8.png" alt="" />
+              <span class="game-type">BASE GAME</span>
+              <p class="game-name">Resident Evil 8 Village</p>
+              <div class="discount-and-price">
+                <p class="discount">-33%</p>
+                <div class="price">
+                  <p class="old-price">100$</p>
+                  <p class="new-price">67$</p>
+                </div>
+              </div>
+              <div class="add-wishlist">
+                <i class="ti-plus"></i>
+              </div>
+
+              <div class="add-wishlist-text">Add To Wishlist</div>
+            </div>
+          </div>
+          <div
+            class="game-list row nowrap"
+            id="game-list"
+            style="margin-top: 48px; width: 100%"
+          >
+            <div class="game-item l-4 m-4 col">
+              <img
+                src="./img/game33/game1.jpg"
+                alt=""
+                style="height: 180px; border-radius: 16px"
+              />
+              <div class="game-desc">
+                <h4 class="game-name">New Civilization VI Pack</h4>
+                <p>
+                  Return to rule with Civ VI: Leader Pass, featuring 18 new
+                  leader selections! Free for owners of Civilization VI
+                  Anthology.
+                </p>
+                <span>49$</span>
+              </div>
+              <div class="add-wishlist">
+                <i class="ti-plus"></i>
+              </div>
+
+              <div class="add-wishlist-text">Add To Wishlist</div>
+            </div>
+
+            <div class="game-item l-4 m-4 col">
+              <img
+                src="./img/game33/game2.jpg"
+                alt=""
+                style="height: 180px; border-radius: 16px"
+              />
+              <div class="game-desc">
+                <h4 class="game-name">Football Manager 2023</h4>
+                <p>
+                  Your journey towards soccer glory awaits. New tools thrust you
+                  closer to every aspect of the beautiful game in FM23.
+                </p>
+                <span>59$</span>
+              </div>
+              <div class="add-wishlist">
+                <i class="ti-plus"></i>
+              </div>
+
+              <div class="add-wishlist-text">Add To Wishlist</div>
+            </div>
+
+            <div class="game-item l-4 m-4 col">
+              <img
+                src="./img/game33/game3.jpg"
+                alt=""
+                style="height: 180px; border-radius: 16px"
+              />
+              <div class="game-desc">
+                <h4 class="game-name">New Civilization VI Pack</h4>
+                <p>
+                  Confront the darker side of the Marvel universe in an all-new
+                  Tactical RPG.
+                </p>
+                <span>49$</span>
+              </div>
+              <div class="add-wishlist">
+                <i class="ti-plus"></i>
+              </div>
+
+              <div class="add-wishlist-text">Add To Wishlist</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="free-games-container">
+          <div class="heading">
+            <div class="header">
+              <i class="ti-gift"></i>
+              <span>Free Games</span>
+            </div>
+
+            <div class="view-more-btn">
+              <button>VIEW MORE</button>
+            </div>
+          </div>
+
+          <div class="free-games-list row">
+            <div class="game-item l-4 m-4 col">
+              <div class="game-image">
+                <img src="./img/freegames/game1.jpg" alt="" />
+                <span>FREE NOW</span>
+              </div>
+              <h5>STAR WARS™: Squadrons</h5>
+              <p>Free Now - Dec 01 at 11:00 PM</p>
+            </div>
+
+            <div class="game-item l-4 m-4 col">
+              <div class="game-image">
+                <img src="./img/freegames/game2.jpg" alt="" />
+                <span style="background-color: #000000">COMING SOON</span>
+              </div>
+              <h5>RPG in a Box</h5>
+              <p>Free Dec 09 - Dec 14</p>
+            </div>
+
+            <div class="game-item l-4 m-4 col">
+              <div class="game-image">
+                <img src="./img/freegames/game3.webp" alt="" />
+                <span style="background-color: #000000">COMING SOON</span>
+              </div>
+              <h5>Fort Triumph</h5>
+              <p>Free Dec 09 - Dec 14</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="top-game-container row">
+          <div class="top-game l-4 m-4 col">
+            <div class="heading" style="font-size: 16px">
+              <div class="header">
+                <span>Top Sellers</span>
+              </div>
+
+              <div class="view-more-btn">
+                <button style="padding: 6px 16px; font-size: 10px">
+                  VIEW MORE
+                </button>
+              </div>
+            </div>
+
+            <div class="top-game-list game-list">
+              <div class="game-item">
+                <img src="./img/doom3.webp" alt="" />
+                <div class="game-desc">
+                  <h5>DOOM 3</h5>
+                  <span>19$</span>
+                </div>
+                <div class="add-wishlist">
+                  <i class="ti-plus"></i>
+                </div>
+
+                <div class="add-wishlist-text">Add To Wishlist</div>
+              </div>
+
+              <div class="game-item">
+                <img src="./img/fallGuys.jpg" alt="" />
+                <div class="game-desc">
+                  <h5>Fall Guys</h5>
+                  <span style="opacity: 0.7; font-size: 12px">FREE</span>
+                </div>
+                <div class="add-wishlist">
+                  <i class="ti-plus"></i>
+                </div>
+
+                <div class="add-wishlist-text">Add To Wishlist</div>
+              </div>
+
+              <div class="game-item">
+                <img src="./img/fifa23.webp" alt="" />
+                <div class="game-desc">
+                  <h5>FIFA 23</h5>
+                  <span>79$</span>
+                </div>
+                <div class="add-wishlist">
+                  <i class="ti-plus"></i>
+                </div>
+
+                <div class="add-wishlist-text">Add To Wishlist</div>
+              </div>
+
+              <div class="game-item">
+                <img src="./img/Fallout3.webp" alt="" />
+                <div class="game-desc">
+                  <h5>Fallout 3</h5>
+                  <span style="opacity: 0.7; font-size: 12px">FREE</span>
+                </div>
+                <div class="add-wishlist">
+                  <i class="ti-plus"></i>
+                </div>
+
+                <div class="add-wishlist-text">Add To Wishlist</div>
+              </div>
+
+              <div class="game-item">
+                <img src="./img/legoStar.webp" alt="" />
+                <div class="game-desc">
+                  <h5>Lego Star Wars™</h5>
+                  <span style="opacity: 0.7; font-size: 12px">CONTACT</span>
+                </div>
+                <div class="add-wishlist">
+                  <i class="ti-plus"></i>
+                </div>
+
+                <div class="add-wishlist-text">Add To Wishlist</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="top-game l-4 m-4 col">
+            <div class="heading" style="font-size: 16px">
+              <div class="header">
+                <span>Most Played</span>
+              </div>
+
+              <div class="view-more-btn">
+                <button style="padding: 6px 16px; font-size: 10px">
+                  VIEW MORE
+                </button>
+              </div>
+            </div>
+
+            <div class="top-game-list game-list">
+              <div class="game-item">
+                <img src="./img/trending game/trending1.webp" alt="" />
+                <div class="game-desc">
+                  <h5>Cyberpunk 2077</h5>
+                  <span>49$</span>
+                </div>
+                <div class="add-wishlist">
+                  <i class="ti-plus"></i>
+                </div>
+
+                <div class="add-wishlist-text">Add To Wishlist</div>
+              </div>
+
+              <div class="game-item">
+                <img src="./img/trending game/trending2.jpg" alt="" />
+                <div class="game-desc">
+                  <h5>BATTLEFIELD</h5>
+                  <span>59$</span>
+                </div>
+                <div class="add-wishlist">
+                  <i class="ti-plus"></i>
+                </div>
+
+                <div class="add-wishlist-text">Add To Wishlist</div>
+              </div>
+
+              <div class="game-item">
+                <img src="./img/trending game/trending3.jpg" alt="" />
+                <div class="game-desc">
+                  <h5>Assassin's Creed</h5>
+                  <span>69$</span>
+                </div>
+                <div class="add-wishlist">
+                  <i class="ti-plus"></i>
+                </div>
+
+                <div class="add-wishlist-text">Add To Wishlist</div>
+              </div>
+
+              <div class="game-item">
+                <img src="./img/trending game/trending4.jpg" alt="" />
+                <div class="game-desc">
+                  <h5>Ghost Of Tsushima</h5>
+                  <span>79$</span>
+                </div>
+                <div class="add-wishlist">
+                  <i class="ti-plus"></i>
+                </div>
+
+                <div class="add-wishlist-text">Add To Wishlist</div>
+              </div>
+
+              <div class="game-item">
+                <img src="./img/trending game/trending5.png" alt="" />
+                <div class="game-desc">
+                  <h5>Grand Theft Auto V</h5>
+                  <span>89$</span>
+                </div>
+                <div class="add-wishlist">
+                  <i class="ti-plus"></i>
+                </div>
+
+                <div class="add-wishlist-text">Add To Wishlist</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="top-game l-4 m-4 col" style="border: none">
+            <div class="heading" style="font-size: 16px">
+              <div class="header">
+                <span>Top Upcoming Wishlisted</span>
+              </div>
+
+              <div class="view-more-btn">
+                <button style="padding: 6px 16px; font-size: 10px">
+                  VIEW MORE
+                </button>
+              </div>
+            </div>
+
+            <div class="top-game-list game-list">
+              <div class="game-item">
+                <img src="./img/fornite-thumb.jpg" alt="" />
+                <div class="game-desc">
+                  <h5>Fornite</h5>
+                  <span style="opacity: 0.7; font-size: 12px">FREE</span>
+                </div>
+                <div class="add-wishlist">
+                  <i class="ti-plus"></i>
+                </div>
+
+                <div class="add-wishlist-text">Add To Wishlist</div>
+              </div>
+
+              <div class="game-item">
+                <img src="./img/goat-thumb.jpg" alt="" />
+                <div class="game-desc">
+                  <h5>Goat Simulator 3</h5>
+                  <span>119$</span>
+                </div>
+                <div class="add-wishlist">
+                  <i class="ti-plus"></i>
+                </div>
+
+                <div class="add-wishlist-text">Add To Wishlist</div>
+              </div>
+
+              <div class="game-item">
+                <img src="./img/spider-thumb.jpg" alt="" />
+                <div class="game-desc">
+                  <h5>Marvel's Spider Man</h5>
+                  <span>99$</span>
+                </div>
+                <div class="add-wishlist">
+                  <i class="ti-plus"></i>
+                </div>
+
+                <div class="add-wishlist-text">Add To Wishlist</div>
+              </div>
+
+              <div class="game-item">
+                <img src="./img/Genshin-Impact.jpg" alt="" />
+                <div class="game-desc">
+                  <h5>Genshin Impact</h5>
+                  <span style="opacity: 0.7; font-size: 12px">FREE</span>
+                </div>
+                <div class="add-wishlist">
+                  <i class="ti-plus"></i>
+                </div>
+
+                <div class="add-wishlist-text">Add To Wishlist</div>
+              </div>
+
+              <div class="game-item">
+                <img src="./img/HomeWorld3.webp" alt="" />
+                <div class="game-desc">
+                  <h5>Home World 3</h5>
+                  <span style="opacity: 0.7; font-size: 12px">COMING SOON</span>
+                </div>
+                <div class="add-wishlist">
+                  <i class="ti-plus"></i>
+                </div>
+
+                <div class="add-wishlist-text">Add To Wishlist</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- List game 2 -->
+
+        <div class="list-game-container">
+          <div class="list-game-header">
+            <div class="list-game-name">
+              <span>Most Popular</span>
+              <i class="ti-angle-right listname-angle-right"></i>
+            </div>
+
+            <div class="left-right-btn">
+              <button style="margin-right: 6px" id="left-btn-gamelist2">
+                <i class="ti-angle-left"></i>
+              </button>
+              <button>
+                <i class="ti-angle-right" id="right-btn-gamelist2"></i>
+              </button>
+            </div>
+          </div>
+
+          <div class="game-list row nowrap" id="game-list2">
+            <div class="game-item l-2-4-new m-4-new s-1 col">
+              <img src="./img/trending game/trending1.webp" alt="" />
+              <span class="game-type">BASE GAME</span>
+              <p class="game-name">Cyberpunk 2077</p>
+              <div class="discount-and-price">
+                <p class="discount">-50%</p>
+                <div class="price">
+                  <p class="old-price">99$</p>
+                  <p class="new-price">49$</p>
+                </div>
+              </div>
+              <div class="add-wishlist">
+                <i class="ti-plus"></i>
+              </div>
+
+              <div class="add-wishlist-text">Add To Wishlist</div>
+            </div>
+
+            <div class="game-item l-2-4-new m-4-new s-1 col">
+              <img src="./img/trending game/trending2.jpg" alt="" />
+              <span class="game-type">BASE GAME</span>
+              <p class="game-name">BATTLEFIELD 2042</p>
+              <div class="discount-and-price">
+                <p class="discount">-33%</p>
+                <div class="price">
+                  <p class="old-price">99$</p>
+                  <p class="new-price">67$</p>
+                </div>
+              </div>
+              <div class="add-wishlist">
+                <i class="ti-plus"></i>
+              </div>
+
+              <div class="add-wishlist-text">Add To Wishlist</div>
+            </div>
+
+            <div class="game-item l-2-4-new m-4-new s-1 col">
+              <img src="./img/trending game/trending3.jpg" alt="" />
+              <span class="game-type">BASE GAME</span>
+              <p class="game-name">Assassin's Creed Valhalla</p>
+              <div class="discount-and-price">
+                <p class="discount">-100%</p>
+                <div class="price price-free">
+                  <p class="old-price">99$</p>
+                  <p class="new-price">Free</p>
+                </div>
+              </div>
+              <div class="add-wishlist">
+                <i class="ti-plus"></i>
+              </div>
+
+              <div class="add-wishlist-text">Add To Wishlist</div>
+            </div>
+
+            <div class="game-item l-2-4-new m-4-new s-1 col">
+              <img src="./img/trending game/trending4.jpg" alt="" />
+              <span class="game-type">BASE GAME</span>
+              <p class="game-name">Ghost Of Tsushima</p>
+              <div class="discount-and-price">
+                <p class="discount">-67%</p>
+                <div class="price">
+                  <p class="old-price">99$</p>
+                  <p class="new-price">33$</p>
+                </div>
+              </div>
+              <div class="add-wishlist">
+                <i class="ti-plus"></i>
+              </div>
+
+              <div class="add-wishlist-text">Add To Wishlist</div>
+            </div>
+
+            <div class="game-item l-2-4-new m-4-new s-1 col">
+              <img src="./img/trending game/trending5.png" alt="" />
+              <span class="game-type">BASE GAME</span>
+              <p class="game-name">Grand Theft Auto V</p>
+              <div class="discount-and-price">
+                <p class="discount">-33%</p>
+                <div class="price">
+                  <p class="old-price">67$</p>
+                  <p class="new-price">22$</p>
+                </div>
+              </div>
+              <div class="add-wishlist">
+                <i class="ti-plus"></i>
+              </div>
+
+              <div class="add-wishlist-text">Add To Wishlist</div>
+            </div>
+
+            <div class="game-item l-2-4-new m-4-new s-1 col">
+              <img src="./img/trending game/trending6.jpg" alt="" />
+              <span class="game-type">BASE GAME</span>
+              <p class="game-name">Dying Light 2 Stay Human</p>
+              <div class="discount-and-price">
+                <p class="discount">-100%</p>
+                <div class="price price-free">
+                  <p class="old-price">67$</p>
+                  <p class="new-price">Free</p>
+                </div>
+              </div>
+              <div class="add-wishlist">
+                <i class="ti-plus"></i>
+              </div>
+
+              <div class="add-wishlist-text">Add To Wishlist</div>
+            </div>
+
+            <div class="game-item l-2-4-new m-4-new s-1 col">
+              <img src="./img/trending game/trending7.png" alt="" />
+              <span class="game-type">BASE GAME</span>
+              <p class="game-name">Halo Infinite</p>
+              <div class="discount-and-price">
+                <div class="price">
+                  <p class="new-price">100$</p>
+                </div>
+              </div>
+              <div class="add-wishlist">
+                <i class="ti-plus"></i>
+              </div>
+
+              <div class="add-wishlist-text">Add To Wishlist</div>
+            </div>
+
+            <div class="game-item l-2-4-new m-4-new s-1 col">
+              <img src="./img/trending game/trending8.png" alt="" />
+              <span class="game-type">BASE GAME</span>
+              <p class="game-name">Resident Evil 8 Village</p>
+              <div class="discount-and-price">
+                <p class="discount">-33%</p>
+                <div class="price">
+                  <p class="old-price">100$</p>
+                  <p class="new-price">67$</p>
+                </div>
+              </div>
+              <div class="add-wishlist">
+                <i class="ti-plus"></i>
+              </div>
+
+              <div class="add-wishlist-text">Add To Wishlist</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="top-game-container row" style="margin-top: 48px">
+          <div class="top-game l-4 m-4 col">
+            <div class="heading" style="font-size: 16px">
+              <div class="header">
+                <span>New Releases</span>
+              </div>
+
+              <div class="view-more-btn">
+                <button style="padding: 6px 16px; font-size: 10px">
+                  VIEW MORE
+                </button>
+              </div>
+            </div>
+
+            <div class="top-game-list game-list">
+              <div class="game-item">
+                <img src="./img/doom3.webp" alt="" />
+                <div class="game-desc">
+                  <h5>DOOM 3</h5>
+                  <span>19$</span>
+                </div>
+                <div class="add-wishlist">
+                  <i class="ti-plus"></i>
+                </div>
+
+                <div class="add-wishlist-text">Add To Wishlist</div>
+              </div>
+
+              <div class="game-item">
+                <img src="./img/fallGuys.jpg" alt="" />
+                <div class="game-desc">
+                  <h5>Fall Guys</h5>
+                  <span style="opacity: 0.7; font-size: 12px">FREE</span>
+                </div>
+                <div class="add-wishlist">
+                  <i class="ti-plus"></i>
+                </div>
+
+                <div class="add-wishlist-text">Add To Wishlist</div>
+              </div>
+
+              <div class="game-item">
+                <img src="./img/fifa23.webp" alt="" />
+                <div class="game-desc">
+                  <h5>FIFA 23</h5>
+                  <span>79$</span>
+                </div>
+                <div class="add-wishlist">
+                  <i class="ti-plus"></i>
+                </div>
+
+                <div class="add-wishlist-text">Add To Wishlist</div>
+              </div>
+
+              <div class="game-item">
+                <img src="./img/Fallout3.webp" alt="" />
+                <div class="game-desc">
+                  <h5>Fallout 3</h5>
+                  <span style="opacity: 0.7; font-size: 12px">FREE</span>
+                </div>
+                <div class="add-wishlist">
+                  <i class="ti-plus"></i>
+                </div>
+
+                <div class="add-wishlist-text">Add To Wishlist</div>
+              </div>
+
+              <div class="game-item">
+                <img src="./img/legoStar.webp" alt="" />
+                <div class="game-desc">
+                  <h5>Lego Star Wars™</h5>
+                  <span style="opacity: 0.7; font-size: 12px">CONTACT</span>
+                </div>
+                <div class="add-wishlist">
+                  <i class="ti-plus"></i>
+                </div>
+
+                <div class="add-wishlist-text">Add To Wishlist</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="top-game l-4 m-4 col">
+            <div class="heading" style="font-size: 16px">
+              <div class="header">
+                <span>Top Player Rated</span>
+              </div>
+
+              <div class="view-more-btn">
+                <button style="padding: 6px 16px; font-size: 10px">
+                  VIEW MORE
+                </button>
+              </div>
+            </div>
+
+            <div class="top-game-list game-list">
+              <div class="game-item">
+                <img src="./img/trending game/trending1.webp" alt="" />
+                <div class="game-desc">
+                  <h5>Cyberpunk 2077</h5>
+                  <span>49$</span>
+                </div>
+                <div class="add-wishlist">
+                  <i class="ti-plus"></i>
+                </div>
+
+                <div class="add-wishlist-text">Add To Wishlist</div>
+              </div>
+
+              <div class="game-item">
+                <img src="./img/trending game/trending2.jpg" alt="" />
+                <div class="game-desc">
+                  <h5>BATTLEFIELD</h5>
+                  <span>59$</span>
+                </div>
+                <div class="add-wishlist">
+                  <i class="ti-plus"></i>
+                </div>
+
+                <div class="add-wishlist-text">Add To Wishlist</div>
+              </div>
+
+              <div class="game-item">
+                <img src="./img/trending game/trending3.jpg" alt="" />
+                <div class="game-desc">
+                  <h5>Assassin's Creed</h5>
+                  <span>69$</span>
+                </div>
+                <div class="add-wishlist">
+                  <i class="ti-plus"></i>
+                </div>
+
+                <div class="add-wishlist-text">Add To Wishlist</div>
+              </div>
+
+              <div class="game-item">
+                <img src="./img/trending game/trending4.jpg" alt="" />
+                <div class="game-desc">
+                  <h5>Ghost Of Tsushima</h5>
+                  <span>79$</span>
+                </div>
+                <div class="add-wishlist">
+                  <i class="ti-plus"></i>
+                </div>
+
+                <div class="add-wishlist-text">Add To Wishlist</div>
+              </div>
+
+              <div class="game-item">
+                <img src="./img/trending game/trending5.png" alt="" />
+                <div class="game-desc">
+                  <h5>Grand Theft Auto V</h5>
+                  <span>89$</span>
+                </div>
+                <div class="add-wishlist">
+                  <i class="ti-plus"></i>
+                </div>
+
+                <div class="add-wishlist-text">Add To Wishlist</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="top-game l-4 m-4 col" style="border: none">
+            <div class="heading" style="font-size: 16px">
+              <div class="header">
+                <span>Coming Soon</span>
+              </div>
+
+              <div class="view-more-btn">
+                <button style="padding: 6px 16px; font-size: 10px">
+                  VIEW MORE
+                </button>
+              </div>
+            </div>
+
+            <div class="top-game-list game-list">
+              <div class="game-item">
+                <img src="./img/fornite-thumb.jpg" alt="" />
+                <div class="game-desc">
+                  <h5>Fornite</h5>
+                  <span style="opacity: 0.7; font-size: 12px">FREE</span>
+                </div>
+                <div class="add-wishlist">
+                  <i class="ti-plus"></i>
+                </div>
+
+                <div class="add-wishlist-text">Add To Wishlist</div>
+              </div>
+
+              <div class="game-item">
+                <img src="./img/goat-thumb.jpg" alt="" />
+                <div class="game-desc">
+                  <h5>Goat Simulator 3</h5>
+                  <span>119$</span>
+                </div>
+                <div class="add-wishlist">
+                  <i class="ti-plus"></i>
+                </div>
+
+                <div class="add-wishlist-text">Add To Wishlist</div>
+              </div>
+
+              <div class="game-item">
+                <img src="./img/spider-thumb.jpg" alt="" />
+                <div class="game-desc">
+                  <h5>Marvel's Spider Man</h5>
+                  <span>99$</span>
+                </div>
+                <div class="add-wishlist">
+                  <i class="ti-plus"></i>
+                </div>
+
+                <div class="add-wishlist-text">Add To Wishlist</div>
+              </div>
+
+              <div class="game-item">
+                <img src="./img/Genshin-Impact.jpg" alt="" />
+                <div class="game-desc">
+                  <h5>Genshin Impact</h5>
+                  <span style="opacity: 0.7; font-size: 12px">FREE</span>
+                </div>
+                <div class="add-wishlist">
+                  <i class="ti-plus"></i>
+                </div>
+
+                <div class="add-wishlist-text">Add To Wishlist</div>
+              </div>
+
+              <div class="game-item">
+                <img src="./img/HomeWorld3.webp" alt="" />
+                <div class="game-desc">
+                  <h5>Home World 3</h5>
+                  <span style="opacity: 0.7; font-size: 12px">COMING SOON</span>
+                </div>
+                <div class="add-wishlist">
+                  <i class="ti-plus"></i>
+                </div>
+
+                <div class="add-wishlist-text">Add To Wishlist</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="list-game-container">
+          <div
+            class="game-list row nowrap"
+            id="game-list"
+            style="margin-top: 48px; width: 100%"
+          >
+            <div class="game-item l-6 m-6 col">
+              <img
+                src="./img/game33/game1.jpg"
+                alt=""
+                style="height: 250px; border-radius: 16px"
+              />
+              <div class="game-desc">
+                <h4 class="game-name">New Civilization VI Pack</h4>
+                <p>
+                  Return to rule with Civ VI: Leader Pass, featuring 18 new
+                  leader selections! Free for owners of Civilization VI
+                  Anthology.
+                </p>
+                <span>49$</span>
+              </div>
+              <div class="add-wishlist">
+                <i class="ti-plus"></i>
+              </div>
+
+              <div class="add-wishlist-text">Add To Wishlist</div>
+            </div>
+
+            <div class="game-item l-6 m-6 col">
+              <img
+                src="./img/game33/game2.jpg"
+                alt=""
+                style="height: 250px; border-radius: 16px"
+              />
+              <div class="game-desc">
+                <h4 class="game-name">Football Manager 2023</h4>
+                <p>
+                  Your journey towards soccer glory awaits. New tools thrust you
+                  closer to every aspect of the beautiful game in FM23.
+                </p>
+                <span>59$</span>
+              </div>
+              <div class="add-wishlist">
+                <i class="ti-plus"></i>
+              </div>
+
+              <div class="add-wishlist-text">Add To Wishlist</div>
+            </div>
+          </div>
+        </div>
+        <!-- Catalog -->
+        <div class="catalog-container">
+          <div class="catalog-image">
+            <img src="./img/catalog.jpg" alt="" />
+          </div>
+
+          <div class="catalog-desc">
+            <h3>Explore Our Catalog</h3>
+            <p>
+              Browse by genre, features, price, and more to find your next
+              favorite game.
+            </p>
+            <button>LEARN MORE</button>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="social">
+        <a href="#"><i class="ti-facebook"></i></a>
+        <a href="#"><i class="ti-twitter-alt"></i></a>
+        <a href="#"><i class="ti-youtube"></i></a>
+      </div>
+
+      <div class="resources">
+        <span>Resources</span>
+        <div class="resources-content">
+          <div class="resources-col">
+            <a href="#">Support-A-Creator</a>
+            <a href="#">Distribute on Epic Games</a>
+            <a href="#">Careers</a>
+            <a href="#">Company</a>
+          </div>
+
+          <div class="resources-col">
+            <a href="#">Fan Art Policy</a>
+            <a href="#">UX Research</a>
+            <a href="#">Store EULA</a>
+          </div>
+
+          <div class="resources-col">
+            <a href="#">Online Services</a>
+            <a href="#">Community Rules</a>
+            <a href="#">Epic Newsroom</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="resources">
+        <span>Made By Epic Games</span>
+        <div class="resources-content">
+          <div class="resources-col" style="margin-right: 46px">
+            <a href="#">Battle Breakers</a>
+            <a href="#">Fortnite</a>
+            <a href="#">Infinity Blade</a>
+          </div>
+
+          <div class="resources-col">
+            <a href="#">Robo Recall</a>
+            <a href="#">Shadow Complex</a>
+            <a href="#">Unreal Tournament</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="border"></div>
+
+      <p class="copy-right">
+        © 2022, Epic Games, Inc. All rights reserved. Epic, Epic Games, the Epic
+        Games logo, Fortnite, the Fortnite logo, Unreal, Unreal Engine, the
+        Unreal Engine logo, Unreal Tournament, and the Unreal Tournament logo
+        are trademarks or registered trademarks of Epic Games, Inc. in the
+        United States of America and elsewhere. Other brands or product names
+        are the trademarks of their respective owners. Non-US transactions
+        through Epic Games International, S.à r.l.
+      </p>
+
+      <div class="footer-link">
+        <div class="links">
+          <a href="#">Terms of Service</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Store Refund Policy</a>
+        </div>
+
+        <div class="logo-links">
+          <a href="#"><img src="./img/epic-games.png" alt="" /></a>
+          <a href="#"
+            ><img
+              style="width: 36px"
+              src="./img/Unreal_Engine_icon-icons.com_56587.png"
+              alt=""
+          /></a>
+        </div>
+      </div>
+
+      <button
+        onclick="topFunction()"
+        id="totopBtn"
+        title="Go to top"
+        class="scroll-to-top-btn"
+      >
+        <i class="ti-angle-up"></i>
+      </button>
+    </footer>
+  </body>
+
+  <script src="./js/main.js"></script>
+  <script src="./js/responsive.js"></script>
+</html>

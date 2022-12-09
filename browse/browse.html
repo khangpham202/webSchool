@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game Store | Browse</title>
+    <!-- Fav Icon -->
+    <link
+      rel="icon"
+      href="../img/logopng/epicgames.png"
+      type="image/icon type"
+    />
+    <!-- Themify Icon -->
+    <link rel="stylesheet" href="../icon/themify-icons/themify-icons.css " />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link rel="stylesheet" href="./grid_browse.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="./browse.css" />
+    <link rel="stylesheet" href="./responsive_browse.css" />
+  </head>
+
+  <body>
+    <header>
+      <a href="index.html"
+        ><img src="../img/epic-games.png" alt="" class="logo"
+      /></a>
+      <div class="nav">
+        <div class="site-nav">
+          <a href="#" class="nav-hover">
+            <p>STORE</p>
+          </a>
+          <a href="#" class="nav-hover">
+            <p>FAQ</p>
+          </a>
+          <a href="#" class="nav-hover">
+            <p>HELP</p>
+          </a>
+          <a href="#" class="nav-hover">
+            <p>UNREAL ENGINE</p>
+          </a>
+        </div>
+
+        <div class="right-nav">
+          <div class="icon-world" style="padding-right: 8px">
+            <i class="ti-world"></i>
+            <ul class="languages">
+              <li>
+                <a href="#"><span>العربية</span></a>
+              </li>
+              <li>
+                <a href="#"><span>Vietnamese</span></a>
+              </li>
+              <li>
+                <a href="#"><span>Deutsch</span></a>
+              </li>
+              <li>
+                <a href="#"><span>English</span></a>
+              </li>
+              <li>
+                <a href="#"><span>Italiano</span></a>
+              </li>
+              <li>
+                <a href="#"><span>Espanol</span></a>
+              </li>
+              <li>
+                <a href="#"><span>Turkce</span></a>
+              </li>
+              <li>
+                <a href="#"><span>Japanese</span></a>
+              </li>
+              <li>
+                <a href="#"><span>Portugues</span></a>
+              </li>
+            </ul>
+          </div>
+          <a href="#" class="nav-hover">
+            <i class="ti-user"></i>
+            <span>LOGIN</span>
+          </a>
+          <a href="#" class="download">
+            <p>DOWNLOAD</p>
+          </a>
+        </div>
+      </div>
+      <div class="menu-button" id="menu-button">
+        <i class="ti-menu"></i>
+      </div>
+      <div class="menu-layout" id="menu-layout">
+        <div class="top-nav">
+          <a href="#">STORE</a>
+          <a href="#">FAQ</a>
+          <a href="#">HELP</a>
+          <a href="#">UNREAL ENGINE</a>
+        </div>
+
+        <div class="bottom-nav">
+          <div class="sign-in-and-language">
+            <a href="sign-in.html" class="nav-hover">
+              <i class="ti-user"></i>
+              <span>SIGN IN</span>
+            </a>
+            <a class="icon-world">
+              <i class="ti-world"></i>
+            </a>
+          </div>
+
+          <div class="download">
+            <a href="#" class="download">
+              <p>DOWNLOAD</p>
+            </a>
+          </div>
+        </div>
+      </div>  
+    </header>
+
+    <main>
+      <div class="grid app">
+        <div class="search-and-dbn row">
+          <div class="search-layout hide-on-mobile hide-on-tablet">
+            <div class="search-icon">
+              <label for="search"><i class="ti-search"></i></label>
+            </div>
+            <div class="input-search">
+              <input type="text" placeholder="Search store" id="search" />
+            </div>
+          </div>
+
+          <div class="dbn-menu hide-on-mobile hide-on-tablet">
+            <a href="../index.html">Discover</a>
+            <a href="" class="active">Browse</a>
+            <a href="../news-tab.html">News</a>
+          </div>
+          <div class="hide-on-pc mobileSearch">
+            <div class="row">
+              <i class="ti-search btn-search c-2 m-2"></i>
+              <div class="overlay">
+                <div class="searchDetail">
+                  <i class="ti-search"></i>
+                  <input type="text" placeholder="Search store" />
+                  <i class="ti-close btn-close"></i>
+                </div>
+              </div>
+              <div class="dbn-menu-mobile c-10 m-10">
+                <span id="dropdown-togg" class="dropdown-togg"
+                  >Browse<i class="ti-angle-down dropdown-togg-i"></i
+                ></span>
+              </div>
+              <ul class="dropdowninmob">
+                <li><a href="../index.html">Discover</a></li>
+                <li><a href="#" class="active">Browse</a></li>
+                <li><a href="../news-tab.html">News</a></li>
+              </ul>
+              <div class="overlayy"></div>
+            </div>
+          </div>
+        </div>
+        <div class="category">
+          <div class="category_header">
+            <div class="category_header--title">
+              <span>Popular Genres</span>
+              <div class="category_header--nav">
+                <button class="btn-prev"><i class="ti-angle-left"></i></button>
+                <button class="btn-next"><i class="ti-angle-right"></i></button>
+              </div>
+            </div>
+          </div>
+          <div class="category_content">
+            <ul class="row category_content--list">
+              <li class="col l-3 category_content--item">
+                <a href="">
+                  <div class="category_content--item-img">
+                    <img src="/browse/img/genre/casual.png" alt="" />
+                    <span class="category_content--item-text"
+                      >Casual Games</span
+                    >
+                  </div>
+                </a>
+              </li>
+              <li class="col l-3 category_content--item">
+                <a href="">
+                  <div class="category_content--item-img">
+                    <img src="/browse/img/genre/action.png" alt="" />
+                    <span class="category_content--item-text"
+                      >Action Games</span
+                    >
+                  </div>
+                </a>
+              </li>
+              <li class="col l-3 category_content--item">
+                <a href="">
+                  <div class="category_content--item-img">
+                    <img src="/browse/img/genre/co-op.png" alt="" />
+                    <span class="category_content--item-text">Co-Op Games</span>
+                  </div>
+                </a>
+              </li>
+              <li class="col l-3 category_content--item">
+                <a href="">
+                  <div class="category_content--item-img">
+                    <img src="/browse/img/genre/cross.png" alt="" />
+                    <span class="category_content--item-text"
+                      >Cross Platform Games</span
+                    >
+                  </div>
+                </a>
+              </li>
+              <li class="col l-3 category_content--item">
+                <a href="">
+                  <div class="category_content--item-img">
+                    <img src="/browse/img/genre/multy.png" alt="" />
+                    <span class="category_content--item-text"
+                      >Multiplayer Games</span
+                    >
+                  </div>
+                </a>
+              </li>
+              <li class="col l-3 category_content--item">
+                <a href="">
+                  <div class="category_content--item-img">
+                    <img src="/browse/img/genre/open.png" alt="" />
+                    <span class="category_content--item-text"
+                      >Open World Games</span
+                    >
+                  </div>
+                </a>
+              </li>
+              <li class="col l-3 category_content--item">
+                <a href="">
+                  <div class="category_content--item-img">
+                    <img src="/browse/img/genre/platform.png" alt="" />
+                    <span class="category_content--item-text"
+                      >Platformer Games</span
+                    >
+                  </div>
+                </a>
+              </li>
+              <li class="col l-3 category_content--item">
+                <a href="">
+                  <div class="category_content--item-img">
+                    <img src="/browse/img/genre/puzzle.png" alt="" />
+                    <span class="category_content--item-text"
+                      >Puzzle Games</span
+                    >
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="listGameFilter">
+          <div class="row">
+            <div class="l-10-1 c-12 m-12 listGame">
+              <div class="listGame_showOption">
+                <span id="dropdown-toggle" class="dropdown-toggle" href="#"
+                  >Show : New Release
+                  <i id="icon" class="ti-angle-down dropdown-toggle-i"></i
+                ></span>
+
+                <ul class="dropdown">
+                  <li><a href="#">All</a></li>
+                  <li>
+                    <a href="#" class="dropdown_item--active">New Release</a>
+                  </li>
+                  <li><a href="#">Coming Soon</a></li>
+                  <li><a href="#">Alphabetical</a></li>
+                  <li><a href="#">Price: High to Low</a></li>
+                  <li><a href="#">Price: Low to High</a></li>
+                </ul>
+                <span class="hide-on-pc filter">
+                  Filter <i class="ti-filter"></i>
+                </span>
+              </div>
+              <div class="listGame_show row">
+                <div class="l-3-1 c-6 m-3 listGame_show--card">
+                  <div class="listGame_show--card-img">
+                    <img
+                      src="./img/game/download-the-land-of-pain-offer-1bczn.webp"
+                      alt=""
+                    />
+                    <i class="ti-plus listGame_card--wishlist"></i>
+                    <button class="listGame_card--wishlist-btn">
+                      Add to Wishlist
+                    </button>
+                  </div>
+                  <div class="listGame_show--card-text">
+                    <span>BASE GAME</span><br />
+                    <span class="listGame_show--card-title"
+                      >The Callisto Protoco</span
+                    ><br />
+                    <span class="listGame_show--card-price">₫800,000</span>
+                  </div>
+                </div>
+                <div class="l-3-1 c-6 m-3 listGame_show--card">
+                  <div class="listGame_show--card-img">
+                    <img
+                      src="./img/game/nadir--a-grimdark-deckbuilder-1xsp3.jpg"
+                      alt=""
+                    />
+                    <i class="ti-plus listGame_card--wishlist"></i>
+                    <button class="listGame_card--wishlist-btn">
+                      Add to Wishlist
+                    </button>
+                  </div>
+                  <div class="listGame_show--card-text">
+                    <span>BASE GAME</span><br />
+                    <span class="listGame_show--card-title"
+                      >The Land of Pain</span
+                    ><br />
+                    <button class="listGame_show--card-btn">NOW ON EPIC</button>
+                    <br />
+                    <div class="listGame_salePrice">
+                      <span>-50%</span>
+                      <span>₫36,000</span>
+                      <span>₫236,000</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="l-3-1 c-6 m-3 listGame_show--card">
+                  <div class="listGame_show--card-img">
+                    <img
+                      src="./img/game/steel-fury-kharkov-1942-17lsy.webp"
+                      alt=""
+                    />
+                    <i class="ti-plus listGame_card--wishlist"></i>
+                    <button class="listGame_card--wishlist-btn">
+                      Add to Wishlist
+                    </button>
+                  </div>
+                  <div class="listGame_show--card-text">
+                    <span>BASE GAME</span><br />
+                    <span class="listGame_show--card-title"
+                      >The Callisto Protoco</span
+                    ><br />
+                    <span class="listGame_show--card-price">₫800,000</span>
+                  </div>
+                </div>
+                <div class="l-3-1 c-6 m-3 listGame_show--card">
+                  <div class="listGame_show--card-img">
+                    <img
+                      src="./img/game/EGS_NeedforSpeedUnbound_CriterionGames_S2_1200x1600-9633e095cbd48726c6025f64d3114bb8.webp"
+                      alt=""
+                    />
+                    <i class="ti-plus listGame_card--wishlist"></i>
+                    <button class="listGame_card--wishlist-btn">
+                      Add to Wishlist
+                    </button>
+                  </div>
+                  <div class="listGame_show--card-text">
+                    <span>BASE GAME</span><br />
+                    <span class="listGame_show--card-title"
+                      >Need for Speed™</span
+                    ><br />
+                    <span class="listGame_show--card-price">₫800,000</span>
+                  </div>
+                </div>
+              </div>
+              <div class="listGame_show row">
+                <div class="l-3-1 c-6 m-3 listGame_show--card">
+                  <div class="listGame_show--card-img">
+                    <img
+                      src="./img/game/new-joe-and-mac-caveman-ninja-5jhes.webp"
+                      alt=""
+                    />
+                    <i class="ti-plus listGame_card--wishlist"></i>
+                    <button class="listGame_card--wishlist-btn">
+                      Add to Wishlist
+                    </button>
+                  </div>
+                  <div class="listGame_show--card-text">
+                    <span>BASE GAME</span><br />
+                    <span class="listGame_show--card-title"
+                      >NEW Joe and Mac</span
+                    ><br />
+                    <span class="listGame_show--card-price">₫280,000</span>
+                  </div>
+                </div>
+                <div class="l-3-1 c-6 m-3 listGame_show--card">
+                  <div class="listGame_show--card-img">
+                    <img
+                      src="./img/game/EGS_TheCallistoProtocol_StrikingDistanceStudios_S2_1200x1600-1e31eacc92833279f5b7a8d07cd3826c.webp"
+                      alt=""
+                    />
+                    <i class="ti-plus listGame_card--wishlist"></i>
+                    <button class="listGame_card--wishlist-btn">
+                      Marvel's Midnight Suns
+                    </button>
+                  </div>
+                  <div class="listGame_show--card-text">
+                    <span>BASE GAME</span><br />
+                    <span class="listGame_show--card-title"
+                      >NEW Joe and Mac</span
+                    ><br />
+                    <span class="listGame_show--card-price">₫280,000</span>
+                  </div>
+                </div>
+                <div class="l-3-1 c-6 m-3 listGame_show--card">
+                  <div class="listGame_show--card-img">
+                    <img
+                      src="./img/game/steel-fury-kharkov-1942-17lsy.webp"
+                      alt=""
+                    />
+                    <i class="ti-plus listGame_card--wishlist"></i>
+                    <button class="listGame_card--wishlist-btn">
+                      Add to Wishlist
+                    </button>
+                  </div>
+                  <div class="listGame_show--card-text">
+                    <span>BASE GAME</span><br />
+                    <span class="listGame_show--card-title"
+                      >The Callisto Protoco</span
+                    ><br />
+                    <span class="listGame_show--card-price">₫800,000</span>
+                  </div>
+                </div>
+                <div class="l-3-1 c-6 m-3 listGame_show--card">
+                  <div class="listGame_show--card-img">
+                    <img
+                      src="./img/game/EGS_NeedforSpeedUnbound_CriterionGames_S2_1200x1600-9633e095cbd48726c6025f64d3114bb8.webp"
+                      alt=""
+                    />
+                    <i class="ti-plus listGame_card--wishlist"></i>
+                    <button class="listGame_card--wishlist-btn">
+                      Add to Wishlist
+                    </button>
+                  </div>
+                  <div class="listGame_show--card-text">
+                    <span>BASE GAME</span><br />
+                    <span class="listGame_show--card-title"
+                      >The Callisto Protoco</span
+                    ><br />
+                    <span class="listGame_show--card-price">₫800,000</span>
+                  </div>
+                </div>
+              </div>
+              <div class="listGame_show row">
+                <div class="l-3-1 c-6 m-3 listGame_show--card">
+                  <div class="listGame_show--card-img">
+                    <img
+                      src="./img/game/download-the-land-of-pain-offer-1bczn.webp"
+                      alt=""
+                    />
+                    <i class="ti-plus listGame_card--wishlist"></i>
+                    <button class="listGame_card--wishlist-btn">
+                      Add to Wishlist
+                    </button>
+                  </div>
+                  <div class="listGame_show--card-text">
+                    <span>BASE GAME</span><br />
+                    <span class="listGame_show--card-title"
+                      >The Callisto Protoco</span
+                    ><br />
+                    <span class="listGame_show--card-price">₫800,000</span>
+                  </div>
+                </div>
+                <div class="l-3-1 c-6 m-3 listGame_show--card">
+                  <div class="listGame_show--card-img">
+                    <img
+                      src="./img/game/steel-fury-kharkov-1942-17lsy.webp"
+                      alt=""
+                    />
+                    <i class="ti-plus listGame_card--wishlist"></i>
+                    <button class="listGame_card--wishlist-btn">
+                      Add to Wishlist
+                    </button>
+                  </div>
+                  <div class="listGame_show--card-text">
+                    <span>BASE GAME</span><br />
+                    <span class="listGame_show--card-title"
+                      >The Callisto Protoco</span
+                    ><br />
+                    <span class="listGame_show--card-price">₫800,000</span>
+                  </div>
+                </div>
+                <div class="l-3-1 c-6 m-3 listGame_show--card">
+                  <div class="listGame_show--card-img">
+                    <img
+                      src="./img/game/EGS_NeedforSpeedUnbound_CriterionGames_S2_1200x1600-9633e095cbd48726c6025f64d3114bb8.webp"
+                      alt=""
+                    />
+                    <i class="ti-plus listGame_card--wishlist"></i>
+                    <button class="listGame_card--wishlist-btn">
+                      Add to Wishlist
+                    </button>
+                  </div>
+                  <div class="listGame_show--card-text">
+                    <span>BASE GAME</span><br />
+                    <span class="listGame_show--card-title"
+                      >The Callisto Protoco</span
+                    ><br />
+                    <span class="listGame_show--card-price">₫800,000</span>
+                  </div>
+                </div>
+                <div class="l-3-1 c-6 m-3 listGame_show--card">
+                  <div class="listGame_show--card-img">
+                    <img
+                      src="./img/game/nadir--a-grimdark-deckbuilder-1xsp3.jpg"
+                      alt=""
+                    />
+                    <i class="ti-plus listGame_card--wishlist"></i>
+                    <button class="listGame_card--wishlist-btn">
+                      Add to Wishlist
+                    </button>
+                  </div>
+                  <div class="listGame_show--card-text">
+                    <span>BASE GAME</span><br />
+                    <span class="listGame_show--card-title"
+                      >The Land of Pain</span
+                    ><br />
+                    <button class="listGame_show--card-btn">NOW ON EPIC</button>
+                    <br />
+                    <div class="listGame_salePrice">
+                      <span>-50%</span>
+                      <span>₫36,000</span>
+                      <span>₫236,000</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <ul class="pageNumber">
+                <li><a class="active" href="">1</a></li>
+                <li><a href="">2</a></li>
+                <li><a href="">3</a></li>
+                <li><a href="">4</a></li>
+                <li><a href="">5</a></li>
+                <li><a href="">...</a></li>
+                <li><a href="">40</a></li>
+                <li>
+                  <a href=""><i class="ti-arrow-right"></i></a>
+                </li>
+              </ul>
+            </div>
+            <div class="l-2-1 c-0 filter hide-on-tablet">
+              <div class="filterOption">
+                <div class="filterOption_header">
+                  <div class="filterOption_header-text">
+                    <span>Filters (1)</span>
+                    <br />
+                    <span>RESET</span>
+                  </div>
+                  <div class="filterOption_header-inp">
+                    <i class="ti-search"></i>
+                    <input type="search" value="" placeholder="Keywords" />
+                  </div>
+                </div>
+                <div class="filterOption_content">
+                  <ul class="filterOption_content-list">
+                    <li
+                      class="filterOption_content-item filterOption_dropdown-toggle"
+                    >
+                      <span>GENRE</span>
+                      <i class="ti-angle-down dropdown-toggle-ii"></i>
+                    </li>
+                    <ul class="filterOption_dropdown">
+                      <li><a href="#">Action</a></li>
+                      <li>
+                        <a href="#">Adventure</a>
+                      </li>
+                      <li><a href="#">Card Game</a></li>
+                      <li><a href="#">Casual</a></li>
+                      <li><a href="#">Comedy</a></li>
+                      <li><a href="#">Fighting</a></li>
+                    </ul>
+                    <li
+                      class="filterOption_content-item filterOption_dropdown-toggle"
+                    >
+                      <span>FEATURES</span>
+                      <i class="ti-angle-down dropdown-toggle-ii"></i>
+                    </li>
+                    <ul class="filterOption_dropdown">
+                      <li><a href="#">Achievements</a></li>
+                      <li>
+                        <a href="#">Challanging Combat</a>
+                      </li>
+                      <li><a href="#">Cloud Saves</a></li>
+                      <li><a href="#">Co-Op</a></li>
+                      <li><a href="#">Competitive</a></li>
+                    </ul>
+                    <li
+                      class="filterOption_content-item filterOption_dropdown-toggle"
+                    >
+                      <span>TYPES</span>
+                      <i class="ti-angle-down dropdown-toggle-ii"></i>
+                    </li>
+                    <ul class="filterOption_dropdown">
+                      <li><a href="#">Apps</a></li>
+                      <li>
+                        <a href="#">Editor</a>
+                      </li>
+                      <li><a href="#">Game Add-On</a></li>
+                      <li><a href="#">Game Bundle</a></li>
+                    </ul>
+                    <li
+                      class="filterOption_content-item filterOption_dropdown-toggle"
+                    >
+                      <span>PLATFORM</span>
+                      <i class="ti-angle-down dropdown-toggle-ii"></i>
+                    </li>
+                    <ul class="filterOption_dropdown">
+                      <li>
+                        <a href="#">MAC OS</a>
+                      </li>
+                      <li><a href="#">Windows</a></li>
+                    </ul>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="social">
+        <a href="#"><i class="ti-facebook"></i></a>
+        <a href="#"><i class="ti-twitter-alt"></i></a>
+        <a href="#"><i class="ti-youtube"></i></a>
+      </div>
+
+      <div class="resources">
+        <span>Resources</span>
+        <div class="resources-content">
+          <div class="resources-col">
+            <a href="#">Support-A-Creator</a>
+            <a href="#">Distribute on Epic Games</a>
+            <a href="#">Careers</a>
+            <a href="#">Company</a>
+          </div>
+
+          <div class="resources-col">
+            <a href="#">Fan Art Policy</a>
+            <a href="#">UX Research</a>
+            <a href="#">Store EULA</a>
+          </div>
+
+          <div class="resources-col">
+            <a href="#">Online Services</a>
+            <a href="#">Community Rules</a>
+            <a href="#">Epic Newsroom</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="resources">
+        <span>Made By Epic Games</span>
+        <div class="resources-content">
+          <div class="resources-col" style="margin-right: 46px">
+            <a href="#">Battle Breakers</a>
+            <a href="#">Fortnite</a>
+            <a href="#">Infinity Blade</a>
+          </div>
+
+          <div class="resources-col">
+            <a href="#">Robo Recall</a>
+            <a href="#">Shadow Complex</a>
+            <a href="#">Unreal Tournament</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="border"></div>
+
+      <p class="copy-right">
+        © 2022, Epic Games, Inc. All rights reserved. Epic, Epic Games, the Epic
+        Games logo, Fortnite, the Fortnite logo, Unreal, Unreal Engine, the
+        Unreal Engine logo, Unreal Tournament, and the Unreal Tournament logo
+        are trademarks or registered trademarks of Epic Games, Inc. in the
+        United States of America and elsewhere. Other brands or product names
+        are the trademarks of their respective owners. Non-US transactions
+        through Epic Games International, S.à r.l.
+      </p>
+
+      <div class="footer-link">
+        <div class="links">
+          <a href="#">Terms of Service</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Store Refund Policy</a>
+        </div>
+
+        <div class="logo-links">
+          <a href="#"><img src="../img/epic-games.png" alt="" /></a>
+          <a href="#"
+            ><img
+              style="width: 36px"
+              src="../img/Unreal_Engine_icon-icons.com_56587.png"
+              alt=""
+          /></a>
+        </div>
+      </div>
+
+      <button
+        onclick="topFunction()"
+        id="totopBtn"
+        title="Go to top"
+        class="scroll-to-top-btn"
+      >
+        <i class="ti-angle-up"></i>
+      </button>
+    </footer>
+  </body>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+    integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+  <script
+    type="text/javascript"
+    src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+  ></script>
+
+  <script src="./browse.js"></script>
+</html>
